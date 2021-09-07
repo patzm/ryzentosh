@@ -4,8 +4,9 @@
 1. Unpack the released `.zip` file into the EFI folder of this repo
 1. `git pull` the latest changes from https://github.com/acidanthera/OcBinaryData and sync the changes in the _Resources_ folder `rsync -avz --delete Resources/ ../ryzentosh/EFI/OC/Resources`
 1. Update the `config.plist` with `ProperTree.command` from https://github.com/corpnewt/ProperTree
-1. Mount the local EFI folder with `MountEFI.command` from https://github.com/corpnewt/MountEFI
-1. Sync `rsync -avz $(pwd)/EFI/ /Volumes/EFI/EFI`
+1. Mount the local EFI folder by running `make mount`
+1. Sync the changes from the repository to the mounted EFI folder by running `make sync-efi`
+1. Unmount the local EFI folder again by running `make unmount`
 
 
 ## Hardware
