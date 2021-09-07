@@ -198,6 +198,8 @@
 			<key>EnableSafeModeSlide</key>
 			<true/>
 			<key>EnableWriteUnprotector</key>
+			<true/>
+			<key>ForceBooterSignature</key>
 			<false/>
 			<key>ForceExitBootServices</key>
 			<false/>
