@@ -2,9 +2,9 @@
 
 ## Updating to a new OpenCore version
 1. Unpack the released `.zip` file into the EFI folder of this repo
+1. `git pull` the latest changes from https://github.com/acidanthera/OcBinaryData and sync the changes in the _Resources_ folder `rsync -avz --delete Resources/ ../ryzentosh/EFI/OC/Resources`
 1. Update the `config.plist` with `ProperTree.command` from https://github.com/corpnewt/ProperTree
 1. Mount the local EFI folder with `MountEFI.command` from https://github.com/corpnewt/MountEFI
-1. `git pull` the latest changes from https://github.com/acidanthera/OcBinaryData and sync the changes in the _Resources_ folder `rsync -avz --delete Resources/ ../ryzentosh/EFI/OC/Resources`
 1. Sync `rsync -avz $(pwd)/EFI/ /Volumes/EFI/EFI`
 
 
