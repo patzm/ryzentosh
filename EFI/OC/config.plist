@@ -2234,6 +2234,7 @@
 			<string>Ps2MouseDxe.efi</string>
 			<string>UsbMouseDxe.efi</string>
 			<string>XhciDxe.efi</string>
+			<string>OpenLinuxBoot.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
