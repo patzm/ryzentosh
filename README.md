@@ -26,3 +26,11 @@ Works:
 - WIFI, but slow, using [HeliPort](https://openintelwireless.github.io/HeliPort/#chat)
 - USB ports (front of case, USB-C connected screen with integrated HUB)
 - Bluetooth was only discovered after USB port mapping
+
+## Post-installation configuration
+
+Sometimes, Apple's key long-press feature to type accented characters gets disabled.
+To re-activate it, run
+```shell
+defaults write -g ApplePressAndHoldEnabled -bool true
+```
